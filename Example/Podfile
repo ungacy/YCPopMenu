@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YCPopMenu_Example' do
+  pod 'YCPopMenu', :path => '../'
+
+  target 'YCPopMenu_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
