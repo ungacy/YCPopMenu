@@ -40,8 +40,6 @@ class ViewController: UIViewController {
         pop.preferences.basic.menuSize = CGSize(width: 100, height: 30)
         pop.preferences.basic.arrowSize = CGSize(width: 10, height: 5)
         pop.preferences.basic.coverEdgeInsets = UIEdgeInsetsMake(40, 0, 0, 0)
-        pop.preferences.basic.direction = .down
-        //pop.preferences.basic.dismissWhenSelectedMenu = false
         pop.showFromView(view: sender)
     }
     

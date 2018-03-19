@@ -9,7 +9,28 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+![](https://raw.githubusercontent.com/ungacy/YCPopMenu/master/Example/screen_record.gif)
+
+## Usage
+
+```swift
+let data = 1...5
+let dataArray = data.map { (title) -> YCPopMenuDemoItem in
+    var item = YCPopMenuDemoItem()
+    item.menuHeight = 40
+    item.title = "\(title)"
+    item.id = title
+    item.available = title % 3 == 0
+    return item
+}
+let pop = YCPopMenu(dataArray: dataArray, cellClass: YCPopMenuDemoCell.self) { _, data in
+    print(data)
+}
+pop.preferences.basic.menuSize = CGSize(width: 100, height: 30)
+pop.preferences.basic.arrowSize = CGSize(width: 10, height: 5)
+pop.preferences.basic.coverEdgeInsets = UIEdgeInsetsMake(40, 0, 0, 0)
+pop.showFromView(view: sender)
+```
 
 ## Installation
 
