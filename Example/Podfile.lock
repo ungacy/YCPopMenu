@@ -1,0 +1,16 @@
+PODS:
+  - YCPopMenu (0.1.0)
+
+DEPENDENCIES:
+  - YCPopMenu (from `../`)
+
+EXTERNAL SOURCES:
+  YCPopMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YCPopMenu: a7ba17b40ea070bd1ed7fced0eb0a1bc7255d8c3
+
+PODFILE CHECKSUM: 34ae478c6e8838c798370a0ca71e2687a25ed04a
+
+COCOAPODS: 1.1.1

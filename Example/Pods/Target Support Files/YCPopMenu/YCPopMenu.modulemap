@@ -1,0 +1,6 @@
+framework module YCPopMenu {
+  umbrella header "YCPopMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

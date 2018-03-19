@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34B7B651205C0E16007B605A /* YCPopMenuDemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B7B650205C0E16007B605A /* YCPopMenuDemoCell.swift */; };
 		3F45FBA2FB50C166C2394921 /* Pods_YCPopMenu_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2B0C24A10F2F11868D3578 /* Pods_YCPopMenu_Tests.framework */; };
 		467CF7AA3C895AB8F368FCBE /* Pods_YCPopMenu_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C593AC86BA544A3E3F5362F8 /* Pods_YCPopMenu_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34B7B650205C0E16007B605A /* YCPopMenuDemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCPopMenuDemoCell.swift; sourceTree = "<group>"; };
 		5687D9A9570265573507BC5F /* Pods-YCPopMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCPopMenu_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YCPopMenu_Example/Pods-YCPopMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
 		59BB985207EC6D75B72A4AE1 /* Pods-YCPopMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCPopMenu_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YCPopMenu_Example/Pods-YCPopMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* YCPopMenu_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCPopMenu_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,10 +42,10 @@
 		607FACE51AFB9204008FA782 /* YCPopMenu_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCPopMenu_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6F64A3155EC1D882507F7D8E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6F64A3155EC1D882507F7D8E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		737011DA26E3F713F1C60116 /* Pods-YCPopMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCPopMenu_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YCPopMenu_Tests/Pods-YCPopMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9340098032D47905E63A4411 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C0486C9D888A83AE0934F4C4 /* YCPopMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YCPopMenu.podspec; path = ../YCPopMenu.podspec; sourceTree = "<group>"; };
+		9340098032D47905E63A4411 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C0486C9D888A83AE0934F4C4 /* YCPopMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YCPopMenu.podspec; path = ../YCPopMenu.podspec; sourceTree = "<group>"; };
 		C593AC86BA544A3E3F5362F8 /* Pods_YCPopMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCPopMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47A6C04A45BF5D04DE59291 /* Pods-YCPopMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCPopMenu_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YCPopMenu_Tests/Pods-YCPopMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EE2B0C24A10F2F11868D3578 /* Pods_YCPopMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCPopMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				34B7B650205C0E16007B605A /* YCPopMenuDemoCell.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -361,6 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34B7B651205C0E16007B605A /* YCPopMenuDemoCell.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -511,7 +515,7 @@
 				INFOPLIST_FILE = YCPopMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ungacy.YCPopMenu-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -526,7 +530,7 @@
 				INFOPLIST_FILE = YCPopMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ungacy.YCPopMenu-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
